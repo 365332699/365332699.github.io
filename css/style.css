@@ -9,12 +9,12 @@ nav ul{ height: 30px;width: 800px; margin: 0 auto;}
 nav ul li{ float: left; width: 20%; cursor: pointer; text-align: center;}
 nav ul li.active{ background:#4b080d;}
 
-.section{position: relative;}
+.section{position: relative; overflow: hidden;}
 .wrap{position: absolute; left: 0;top: 0; right: 0; bottom: 0; margin: auto;margin-top: 100px;}
 
 /*=========第一屏==========*/		
 .section1{text-align: center;background:url(../images/bg.png) center center; background-size: cover; }
-.section1 ul{width: 100%;height: 419px;margin:auto;position: relative; background: url(../images/section1_ul_bg.jpg) no-repeat center top;}
+.section1 ul{width: 100%;height: 419px;margin:auto;position: relative; background: url(../images/section1_ul_bg.jpg) no-repeat center top;margin-top: 50px;}
 .section1 ul li{width: 196px;height: 196px;background:#000;position: absolute; left: 0;top: 0; right: 0; bottom: 0; margin: auto; transform: rotate(45deg);overflow: hidden;}
 .section1 ul li img{width: 200px;height: auto;opacity: 0.5; transform:rotate(-90deg);}
 .section1 ul li:hover img{opacity: 1;}
@@ -66,6 +66,59 @@ h1 img{vertical-align: bottom;}
 	100%{transform: rotate(360deg)}
 	
 }
+
+
+
+/*===============第三屏================*/
+.section3{text-align: center;background: url(../images/page3-bg.jpg) center center;}
+.section3 h2{text-align: center;color:#eee;height: 70px;line-height: 70px;position: relative;font-size: 36px;display: inline-block;padding:20px 0;}
+.section3 h2:after{content:"";width: 160px;height: 1px;background: #f2f2f2;display: block;position: absolute;bottom: 0;left: -25px;}
+.section3 p{text-align: center;height: 40px;line-height: 40px;color:#666;font-size: 16px;}
+.section3 ul{width: 1000px;height: 800px;display: inline-block;}
+.section3 ul li{width: 250px;height: 250px;padding:10px;background: rgba(255,255,255,0.2);box-shadow:0 0 10px rgba(0,0,0,0.51);float: left;margin-right: 95px;margin-bottom: 10px;}
+.section3 ul li:nth-of-type(3){margin-right: 0;}
+.section3 ul li:nth-of-type(6){margin-right: 0;}
+
+.section3 ul li .li-all{width: 250px;height: 250px;position: relative;overflow: hidden;background: orange;}
+.section3 ul li .li-down{width: 250px;height: 250px;z-index:5;}
+.section3 ul li img{width: 100%;height: auto;transform:scale(1,1);transition:all 0.3s;}
+.section3 ul li .li-up{width: 250px;height: 250px;background:rgba(0,0,0,0.3);z-index:10;position: absolute;left: 0;top:210px;transition:all 0.3s;}
+.section3 ul li .li-up h4{height: 40px;line-height: 40px;background: rgba(0,0,0,0.60);font-size: 20px;margin-top: 60px;transform:translateX(-300px);transition:all 0.3s 0.3s;color:#fff;}
+.section3 ul li .li-up p{height: 60px;line-height: 60px;transform:translateX(300px);transition:all 0.3s 0.3s;color:#f2f2f2;}
+.section3 ul li:hover .li-up{top: 0;}
+.section3 ul li:hover .li-up h4{transform:translateX(0);}
+.section3 ul li:hover .li-up p{transform:translateX(0);}
+.section3 ul li:hover .li-down img{transform:scale(1.2,1.2);}
+
+
+
+/*=============第四屏=================*/
+.section4{text-align: center;background: url(../images/section4-bg.jpg) center center;}
+.section4 h2{text-align: center;color:#eee;height: 70px;line-height: 70px;position: relative;font-size: 36px;display: inline-block;padding:20px 0;}
+.section4 h2:after{content:"";width: 180px;height: 1px;background: #f2f2f2;display: block;position: absolute;bottom: 0;left: -25px;}
+.section4 p{text-align: center;height: 40px;line-height: 40px;color:#666;font-size: 16px;}
+.swiper-container {
+    width: 1400px;
+    height: 510px;
+}  
+
+
+/*==============第五屏=============*/
+.section5{text-align: center;background: url(../images/page5-bg.png) center 0;}
+.section5 h2{text-align: center;color:#eee;height: 70px;line-height: 70px;position: relative;font-size: 36px;display: inline-block;padding:20px 0;}
+.section5 h2:after{content:"";width: 180px;height: 1px;background: #f2f2f2;display: block;position: absolute;bottom: 0;left: -25px;}
+.section5 p{text-align: center;height: 40px;line-height: 40px;color:#666;font-size: 16px;}
+.section5 .contact{width: 1100px;height: 500px;display: inline-block;}
+.section5 .contact ul{width: 600px;height: 500px;float: left;}
+.section5 .contact ul li{width:600px;height: 100px;background:rgba(0,0,0,0.31);border-left: 1px solid #f2f2f2;border-top: 1px solid #f2f2f2;border-right: 1px solid #f2f2f2;box-sizing:border-box;text-indent: 40px;}
+.section5 .contact ul li:last-of-type{border-bottom: 1px solid #f2f2f2;}
+.section5 .contact ul li p{text-align: left;height: 100px;line-height: 100px;font-size: 20px;color:#fff;}
+.section5 .contact ul li p b{color:skyblue;font-size: 22px;}
+.section5 .contact .map{width: 500px;height: 500px;background: orange;float: left;}
+
+
+
+
 
 
 
