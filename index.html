@@ -1,273 +1,165 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
-    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title></title>
+<meta charset="utf-8">
+<title>吴昊个人站</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-	<!--导航-->
-    <nav>
-        <ul id="menu" class="menu">
-            <li data-menuanchor="page1" class="active"><a href="#page1">首页</a></li>
-            <li data-menuanchor="page2"><a href="#page2">技能</a></li>
-            <li data-menuanchor="page3"><a href="#page3">图标</a></li>
-            <li data-menuanchor="page4"><a href="#page4">焦点图</a></li>
-            <li data-menuanchor="page5"><a href="#page5">app</a></li>
-            <li data-menuanchor="page6"><a href="#page6">网页</a></li>
-            <li data-menuanchor="page7"><a href="#page7">关于我</a></li>
-            
+<!--header部分-->
+	<header>
+    	<div class="header">
+        	<h2>
+            	<p class="h-p1">
+                	我 的 信 息
+                </p>
+                <p class="h-p2">
+                	MY INFORMATION
+                </p>
+            </h2>
+        	<div class="h-icon"><img src="images/h-logo.png" width="50" alt=""/></div>
+        </div>
+        <div class="intro">
+            <div class="in-left">        	
+                <div class="name">我 是 <b>吴昊</b></div>
+                <div class="welcome">
+                    <p class="i-p1">欢迎光临我的个人小站</p>
+                    <p class="i-p2">LEAD WEB DEVELOPER</p>
+                </div>
+            </div>
+            <div class="in-right">
+            	大家好，我是一名UI设计，我从事这份工作已经
+                有六年了，我是一个对生活和设计充满无限热情
+                的人，善于从生活中发现设计灵感，爱好欣赏美
+                的事物和作品，常浏览设计网站，学习各类设计
+                特点并实时关注设计趋势。善于与人沟通，与人
+                合作完成项目。
+            </div>        
+        </div>
+        <div class="zhuang"></div>
+        <div class="about">
+            <div class="about-r">        	
+                <h3 class="me">关 于 我</h3>
+                <h4 class="a-about">ABOUT ME</h4>
+                <ul class="jian">
+                	<li><span class="j-s1">NAME:</span><span class="j-s2">吴昊</span></li>
+                	<li><span class="j-s1">AGE:</span><span class="j-s2">31</span></li>
+                	<li><span class="j-s1">EXPERIENCES:</span><span class="j-s2">6年</span></li>
+                	<li><span class="j-s1">EMAIL:</span><span class="j-s2">wuhaoijj@163.com</span></li>
+                	<li><span class="j-s1">PHONE:</span><span class="j-s2">15247675702</span></li>
+                	<li><span class="j-s1">WEBSITE:</span><span class="j-s2">wooxue.cn</span></li>
+                	<li><span class="j-s1">ADDRESS:</span><span class="j-s2">北京市昌平区沙河镇辉腾公寓308室</span></li>
+                </ul>
+            </div>        
+      </div>
+    </header>
+
+<!--skill部分-->
+	<section class="sec1">
+    	<h3 class="skill">我的技能</h3>
+        <h4 class="sec1-s">MY SKILLS</h4>
+        <ul class="sec1-icon1">
+        	<li><img src="images/h5.png" width="150" alt=""/></li>
+        	<li><img src="images/css.png" width="150" alt=""/></li>
+        	<li><img src="images/js.png" width="150" alt=""/></li>
+        	<li><img src="images/jq.png" width="150" alt=""/></li>
         </ul>
-    </nav>
-    
-    <!--每一屏-->
-    <div id="dowebok">
-        <div class="section section1">
-        	<div class="wrap">
-                <ul>
-                    <li class="li1"><img src="images/wh.png" width="283" height="284" alt=""/></li>
-                    <li class="li2"><img src="images/woo.png" width="284" height="284" alt=""/></li>
-                    <li class="li3"><img src="images/zp1.png" width="285" height="285" alt=""/></li>
-                    <li class="li4"><img src="images/load.png" width="286" height="286" alt=""/></li>
-                </ul>
-                <div class="logo">
-                
-                    <h1>
-                        <a href="#"><img src="images/logo.png" width="124" height="137" alt=""/></a>
-                    </h1>
-                    wooxue.cn
-                </div>
-            </div>
-        
-        </div>
-        <div class="section section2">
-            <div class="wrap">
-                <h2>我能为您做什么</h2>
-                <p>MY SKILLS</p>
-                <ul class="skills">
-                	<li><img src="images/h5.png" width="150" alt=""/></li>
-                	<li><img src="images/css.png" width="150" alt=""/></li>
-                	<li><img src="images/js.png" width="150" alt=""/></li>
-                	<li><img src="images/jq.png" width="150" alt=""/></li>
-                </ul>
-                <ul class="sw">
-                	<li>
-                    	<div class="roll-w"></div>
-                        <div class="roll-z"></div>
-                        <div class="roll-n"></div>
-                    	<img src="images/ps.png" width="100" alt=""/>
-                     </li>
-                	<li>
-                    	<div class="roll-w"></div>
-                        <div class="roll-z"></div>
-                        <div class="roll-n"></div>
-                    	<img src="images/ai.png" width="100" alt=""/>
-                     </li>
-                	<li>
-                    	<div class="roll-w"></div>
-                        <div class="roll-z"></div>
-                        <div class="roll-n"></div>
-                    	<img src="images/axure.png" width="100" alt=""/>
-                     </li>
-                	<li>
-                    	<div class="roll-w"></div>
-                        <div class="roll-z"></div>
-                        <div class="roll-n"></div>
-                    	<img src="images/fw.png" width="100" alt=""/>
-                     </li>
-                	<li>
-                    	<div class="roll-w"></div>
-                        <div class="roll-z"></div>
-                        <div class="roll-n"></div>
-                    	<img src="images/dw.png" width="100" alt=""/>
-                     </li>
-                	<li>
-                    	<div class="roll-w"></div>
-                        <div class="roll-z"></div>
-                        <div class="roll-n"></div>
-                    	<img src="images/ae.png" width="100" alt=""/>
-                     </li>
-                </ul>
-                
-            </div>
-        
-        
-        </div>
-        <div class="section section3">
-        	<div class="wrap">
-              <h2>图 &nbsp;&nbsp;&nbsp;标</h2>
-              <p>ICON</p>
-                <ul>
-                	<li>
-                    	<div class="li-all">
-                            <div class="li-down">
-                                <img src="images/icon1.jpg" width="1024" height="1024" alt=""/>
-                            </div>
-                            <div class="li-up">
-                                <h4>拟物图标</h4>
-                                <p>打印机icon</p>
-                            </div>
-                        </div>
-                    </li>
-                	<li>
-                    	<div class="li-all">
-                            <div class="li-down">
-                                <img src="images/icon2.png" width="1024" height="1024" alt=""/>
-                            </div>
-                            <div class="li-up">
-                                <h4>拟物图标</h4>
-                                <p>可口可乐icon</p>
-                            </div>
-                        </div>
-                    </li>
-                	<li>
-                    	<div class="li-all">
-                            <div class="li-down">
-                                <img src="images/icon3.png" width="1024" height="1024" alt=""/>
-                            </div>
-                            <div class="li-up">
-                                <h4>拟物图标</h4>
-                                <p>吉他icon</p>
-                            </div>
-                        </div>
-                    </li>
-                	<li>
-                    	<div class="li-all">
-                            <div class="li-down">
-                                <img src="images/icon4.jpg" width="1024" height="1024" alt=""/>
-                            </div>
-                            <div class="li-up">
-                                <h4>拟物图标</h4>
-                                <p>相机icon</p>
-                            </div>
-                        </div>
-                    </li>
-                	<li>
-                    	<div class="li-all">
-                            <div class="li-down">
-                                <img src="images/icon5.jpg" width="1024" height="1024" alt=""/>
-                            </div>
-                            <div class="li-up">
-                                <h4>拟物图标</h4>
-                                <p>收音机	icon</p>
-                            </div>
-                        </div>
-                    </li>
-                	<li>
-                    	<div class="li-all">
-                            <div class="li-down">
-                                <img src="images/icon6.jpg" width="1024" height="1024" alt=""/>
-                            </div>
-                            <div class="li-up">
-                                <h4>拟物图标</h4>
-                                <p>质感按钮icon</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="section section4">
-        	<div class="wrap">
-            	<h2>焦 点 图</h2>
-              	<p>BANNER</p>
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="images/banner1.png" width="1400" alt=""/></div>
-                        <div class="swiper-slide"><img src="images/banner2.png" width="1400" alt=""/></div>
-                        <div class="swiper-slide"><img src="images/banner3.png" width="1400" alt=""/></div>
-                        <div class="swiper-slide"><img src="images/banner4.png" width="1400" alt=""/></div>
-                        <div class="swiper-slide"><img src="images/banner5.png" width="1400" alt=""/></div>
-                    </div>
-                    
-                    <!-- 如果需要导航按钮 -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                    
-                </div>
-
-            
-            </div>
-        </div>
-        <div class="section section5">
-       	  <div class="wrap">
-            	<h2>移 动 端</h2>
-           		<p>A P P</p>
-                <div class="ul_app">
+        <ul class="sec1-icon2">
+        	<li><img src="images/ps.png" width="100" alt=""/></li>
+        	<li><img src="images/ai.png" width="100" alt=""/></li>
+        	<li><img src="images/ae.png" width="100" alt=""/></li>
+        	<li><img src="images/axure.png" width="100" alt=""/></li>
+        	<li><img src="images/dw.png" width="100" alt=""/></li>
+        	<li><img src="images/fw.png" width="100" alt=""/></li>
+        </ul>
+    </section>
+<!--work部分-->
+	<section class="sec2">
+    	<h3 class="skill">我的作品</h3>
+        <h4 class="sec1-s">MY WORKS</h4>
+        <div class="app">
+        	<h5 class="app-t">A P P</h5>
+            <div class="app-btn"> 
+            	<div class="app-btnl"><img src="images/btnl.png" width="30" alt=""/></div>           
+                <div class="app-l">
                     <ul>
-                      <li>
-                        <img src="images/app01.jpg" width="250" alt=""/>
-                      </li>
-                      <li>
-                        <img src="images/app02.jpg" width="250" alt=""/>
-                      </li>
-                      <li>
-                        <img src="images/app03.jpg" width="250" alt=""/>
-                      </li>
-                      <li>
-                        <img src="images/app04.jpg" width="250" alt=""/>
-                      </li>
+                        <li><img src="images/app1.png" width="300" alt=""/></li>
+                        <li><img src="images/app2.png" width="300" alt=""/></li>
+                        <li><img src="images/app3.png" width="300" alt=""/></li>
+                        <li><img src="images/app4.png" width="300" alt=""/></li>
+                        <li><img src="images/app5.png" width="300" alt=""/></li>
                     </ul>
-                </div>
-                <h6>* 欲了解更多app详情请联系本人</h6>
+              </div>
+              <div class="app-btnr"><img src="images/btnr.png" width="30" alt=""/></div>
+          </div>      
+        </div>
+        <div class="web">
+        	<h5 class="web-t">WEBSITE</h5>
+            <div class="web-p"><img src="images/ping4web.png" width="1920" alt=""/></div>
+        </div>
+        <div class="banner">
+        	<div class="banner-h">
+                <h5 class="banner-t">BANNER</h5>
             </div>
+       	  	<div class="banner-p">
+                <div class="banner-pw">
+                    <div class="banner-real">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ol>
+                        	<li class="active"></li>
+                        	<li></li>
+                        	<li></li>
+                        	<li></li>
+                        	<li></li>
+                        </ol>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="icon">
+        	<div class="icon-h">
+                <h5 class="icon-t">ICON</h5>
+            </div>
+            <div class="icon-p">
+            	<div class="icon-real">
+                	<ul>
+                		<li><img src="images/icon1.png" width="270" alt=""/></li>
+                		<li><img src="images/icon2.png" width="270" alt=""/></li>
+                		<li><img src="images/icon3.png" width="270" alt=""/></li>
+                	</ul>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--connect部分-->    
+    <section class="sec3">
+    	<div class="connect">
+        	<h5 class="con-t">CONNECT WITH</h5>
+        	<ul>
+        		<li>
+                	<div><img src="images/weixin.png" width="150" alt=""/></div>
+                  	<p>wxid_9rrnumfjswdu22</p>
+                </li>
+        		<li>
+                	<div><img src="images/email.png" width="150" alt=""/></div>
+                  	<p>wuhaoijj@163.com</p>
+                </li>
+        		<li>
+                	<div><img src="images/shouji.png" width="150" alt=""/></div>
+                  	<p>15247675702</p>
+                </li>
+        	</ul>
         
         </div>
-        <div class="section section6">
-        	<div class="wrap">
-            	<h2>网 页</h2>
-                <p>WEBSITE</p>
-                <div class="ul_web">
-                	<ul>
-                		<li><img src="images/web02.jpg" width="600" alt=""/></li>
-                		<li><img src="images/web03.jpg" width="600" alt=""/></li>
-                	</ul>
-                    <div class="webr"><img src="images/web01.jpg" width="600" alt=""/></div>
-                </div>
-            </div>
-        </div>
-        <div class="section section7">
-        	<div class="wrap">
-            	<h2>关 于 我</h2>
-              	<p>contact me</p>
-                <div class="contact">
-                	<ul>
-                		<li>
-                        	<p><b>Q Q&nbsp;:</b>&nbsp;365332699</p>
-                        </li>
-               		  <li>
-                        	<p><b>电话&nbsp;:</b>&nbsp;15247675702</p>
-                        </li>
-                		<li>
-                        	<p><b>邮箱&nbsp;:</b>&nbsp;365332699@qq.com</p>
-                        </li>
-                		<li>
-                        	<p><b>微信&nbsp;:</b>&nbsp;wxid_9rrnumfjswdu22</p>
-                        </li>
-                		<li>
-                        	<p><b>地址&nbsp;:</b>&nbsp;北京市昌平区沙河镇辉腾公寓308室</p>
-                        </li>
-                	</ul>
-                    <div class="map">
-               	    	<img src="images/地点.jpg" width="500" height="500" alt=""/> 
-                    </div>
-                
-                </div>
-            </div>
-        </div>
+    </section>
+    
 
-</div>
-    
-    
-    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
-    <script src="js/swiper-3.4.2.min.js"></script>
-    <script src="js/my.js"></script>
 </body>
-
 </html>
