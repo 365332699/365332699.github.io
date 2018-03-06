@@ -94,7 +94,7 @@ h2{float: left;margin-top: 60px;}
 .banner-pw{padding:20px;width: 1000px;height: 480px;background: #828282;border-radius:10px; box-sizing:border-box;overflow: hidden;margin: auto;}
 .banner-real ol{position: absolute;left: 350px;bottom: 50px;}
 .banner-real ol li{width: 15px;height: 15px;background: rgba(251,247,247,0.3);border-radius:50%;margin:20px;float: left;}
-.banner-real ol li.active{background:#50d6cf;}
+.banner-real ol li.banner-active{background:#50d6cf;}
 
 /*===icon===*/
 .icon{width: 80%;margin: auto;overflow: hidden;min-width:1200px;margin-top: 150px;margin-bottom: 100px;}
